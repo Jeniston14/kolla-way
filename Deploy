@@ -13,3 +13,9 @@ pip install git+https://opendev.org/openstack/kolla-ansible@master
 sudo mkdir -p /etc/kolla
 sudo chown $USER:$USER /etc/kolla
 cp -r /opt/venv/share/kolla-ansible/etc_examples/kolla/* /etc/kolla
+
+###Prepare-stage-3
+
+kolla-ansible install-deps
+kolla-genpwd #from generate secrets/password/rsa-keys
+
