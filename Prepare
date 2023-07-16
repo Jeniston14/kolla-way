@@ -7,6 +7,6 @@ Volume 40 GB high-iops
 
 NIC:
 --
-1 network interface with ip address / dhcp  + floating  (ens7)
-2 network interface without ip address (ens3)
+1 network interface with ip address / dhcp  + floating  (ens7) for network_interface
+2 network interface without ip address (ens3) for neutron_external_interface
 
