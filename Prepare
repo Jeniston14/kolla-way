@@ -1,6 +1,8 @@
 Virtual Machine:
 --
-Ubuntu 20.04 
+Ubuntu 22.04 
+where:
+/ "msg": "Ubuntu release focal version 20.04 is not supported. Supported releases are: jammy" /
 Flavor: 4-8 MIN / 8-12 RECOMMENDED
 Volume 40 GB high-iops
 2 Network Interface -> name - ens3, ens7
